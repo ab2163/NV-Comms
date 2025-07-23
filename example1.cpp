@@ -1,6 +1,6 @@
 #include <thread>
-#include "stdexec/include/exec/static_thread_pool.hpp"
-#include "stdexec/include/stdexec/execution.hpp"
+#include <stdexec/execution.hpp>
+#include <exec/static_thread_pool.hpp>
 #include <iostream>
 
 int main(void){
